@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>{{ filme?.title }}</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/filmes"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card *ngIf="filme">
+    <img [src]="imageBaseUrl + '/w400' + filme.poster_path">
+    <ion-card-header>
+      <ion-card-title>{{ filme.title }}</ion-card-title>
+      <ion-card-subtitle> {{filme.tagline }}</ion-card-subtitle>
+      <ion-text color="tertiary">
+        <span *ngFor="let genero of filme.genres; let isLast = last">
+          {{ genero.name }} {{ !isLast ? '-' : ''}}
+        </span>
+      </ion-text>
+    </ion-card-header>
+
+    <ion-item lines="none">
+      <ion-icon slot="start" name="calendar-outline"></ion-icon>
+      <ion-label>{{ filme.release_date | date : 'y'}}</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-icon slot="start" name="cash-outline"></ion-icon>
+      <ion-label>{{ filme.budget | currency : 'USD'}}</ion-label>
+    </ion-item>
+    <ion-accordion-group>
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label color="medium">Sinopse</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          {{ filme.overview }}
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-card>
+</ion-content>
