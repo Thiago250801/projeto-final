@@ -66,3 +66,7 @@ Por fim, execute o seguinte comando para rodar o projeto:
 The Movie Database, mais conhecido pela sigla TMDb, é uma base de dados grátis e de código aberto, sobre filmes e seriados.
 Nela são disponibilizados várias informações sobre filmes e séries.
 
+## Manual do usuário 
+
+- https://drive.google.com/file/d/11flbYWv5ePgrsKt64_MX5NNgpG0PWtcU/view?usp=share_link
+
