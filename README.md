@@ -9,13 +9,13 @@
 
 #### Instalação do projeto
 
-1. Passo: 
+#### 1. Passo: 
 
 Abra o terminal, navegue e/ou crie um diretório para clonar o repositório.
 
 ex: mkdir ionic
 
-2. Passo: 
+#### 2. Passo: 
 
 Feito isso, navegue até o diretório e clone o reposiório
 
@@ -25,13 +25,13 @@ No terminal exucute o seguinte comando:
 
 git clone https://github.com/Thiago250801/projeto-final.git
 
-3. Passo: 
+#### 3. Passo: 
 
 Ao clonar, navegue até o diretório clonado: 
 
 cd projeto-final
 
-4. Passo: 
+#### 4. Passo: 
 
 No diretório projeto-final execute o comando: 
 
@@ -39,7 +39,7 @@ code .
 
 Para abrir o vs code.
 
-5. Passo 
+#### 5. Passo 
 
 Agora abra o terminal do Vs Code e execute os seguintes comandos.
 
@@ -51,7 +51,7 @@ npm  -g ionic
 
 npm i
 
-6. Passo
+#### 6. Passo
 
 Por fim, execute o seguinte comando para rodar o projeto: 
 
