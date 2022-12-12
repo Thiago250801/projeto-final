@@ -57,4 +57,10 @@ Por fim, execute o seguinte comando para rodar o projeto:
 
 `ionic serve --lab`
 
-#
+# 
+
+## Sobre a API TMDb
+
+The Movie Database, mais conhecido pela sigla TMDb, é uma base de dados grátis e de código aberto, sobre filmes e seriados.
+Nela são disponibilizados várias informações sobre filmes e séries.
+
