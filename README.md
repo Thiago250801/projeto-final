@@ -13,29 +13,29 @@
 
 Abra o terminal e crie um diretório para clonar o repositório.
 
-mkdir ionic
+`mkdir ionic`
 
 #### 2. Passo: 
 
 Feito isso, navegue até o diretório criado: 
 
-cd ionic
+`cd ionic`
 
 No diretório exucute o seguinte comando: 
 
-git clone https://github.com/Thiago250801/projeto-final.git
+`git clone https://github.com/Thiago250801/projeto-final.git`
 
 #### 3. Passo: 
 
 Ao clonar, navegue até o diretório clonado: 
 
-cd projeto-final
+`cd projeto-final`
 
 #### 4. Passo: 
 
 No diretório projeto-final execute o comando: 
 
-code .
+`code .`
 
 Para abrir o vs code.
 
@@ -43,16 +43,16 @@ Para abrir o vs code.
 
 Agora abra o terminal do Vs Code e execute os seguintes comandos.
 
-npm i -g @angular/cli
+`npm i -g @angular/cli`
 
-npm i -g @ionic/cli
+`npm i -g @ionic/cli`
 
-npm  -g ionic
+`npm  -g ionic`
 
-npm i
+`npm i`
 
 #### 6. Passo
 
 Por fim, execute o seguinte comando para rodar o projeto: 
 
-ionic serve --lab
+`ionic serve --lab`
