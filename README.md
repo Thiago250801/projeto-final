@@ -56,3 +56,5 @@ Agora abra o terminal do Vs Code e execute os seguintes comandos.
 Por fim, execute o seguinte comando para rodar o projeto: 
 
 `ionic serve --lab`
+
+#
