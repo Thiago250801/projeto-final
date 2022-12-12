@@ -11,17 +11,17 @@
 
 #### 1. Passo: 
 
-Abra o terminal, navegue e/ou crie um diretório para clonar o repositório.
+Abra o terminal e crie um diretório para clonar o repositório.
 
-ex: mkdir ionic
+mkdir ionic
 
 #### 2. Passo: 
 
-Feito isso, navegue até o diretório e clone o reposiório
+Feito isso, navegue até o diretório criado: 
 
 cd ionic
 
-No terminal exucute o seguinte comando: 
+No diretório exucute o seguinte comando: 
 
 git clone https://github.com/Thiago250801/projeto-final.git
 
